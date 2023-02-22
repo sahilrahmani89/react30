@@ -1,0 +1,36 @@
+export const familyTree = {
+    name:'Stella',
+    age:100,
+    children:[
+        {
+            name:'mary',
+            age:60
+        },
+        {
+            name:'arthur',
+            age:60,
+            children:[
+                {
+                 name:'a',
+                 age:42,
+                 children:[
+                    {
+                        name:'b',
+                        age:28,
+                        children:[
+                            {
+                                name:'c',
+                                age:8
+                            }
+                        ]
+                    }
+                 ]
+                },
+                {
+                    name:'ab',
+                    age:40
+                }
+            ]
+        }
+    ]
+}
