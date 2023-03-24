@@ -19,7 +19,7 @@ function App() {
   return (
     <React.Fragment>
       <Suspense fallback={<div>loading...</div>}>
-      {/* <Problem1/> */}
+      <Problem1/>
       {/* p1 debouncing */}
         {/* <Problem2/> */}
         {/* p2 helper */}
@@ -34,7 +34,7 @@ function App() {
         {/* memoized  */}
         {/* <Problem7/> */}
         {/* memoized  */}
-        <Problem8/>
+        {/* <Problem8/> */}
         {/* callback , memoized function */}
       </Suspense>
     </React.Fragment>
