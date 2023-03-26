@@ -5,10 +5,12 @@ const UseDebounce = (searchTerm,time) => {
 
     useEffect(() => {
       const timer = setTimeout(() => {
+       
         setdebounceValue(searchTerm)
       }, time);
     
       return () => {
+        
         clearTimeout(timer)
       }
     }, [searchTerm,time])
