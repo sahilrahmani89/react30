@@ -16,6 +16,7 @@ const Problem2  = React.lazy(()=>import('./compnents/Problem2'))
 const Problem3 = React.lazy(()=>import('./compnents/Problem3'))
 const Problem4 = React.lazy(()=>import('./compnents/Problem4'))
 const Problem6 = React.lazy(()=>import('./compnents/Problem6'))
+const Problem10 = React.lazy(()=>import('./compnents/Problem10'))
 function App() {
   return (
     <React.Fragment>
@@ -26,7 +27,7 @@ function App() {
         {/* p2 helper */}
         {/* <Problem3 familyTree={familyTree}/>  */}
          {/*p3 component recursion  */}
-        <Problem4 />
+        {/* <Problem4 /> */}
         {/*p4 throttle */}
         {/* <User/>
         <Post/> */}
@@ -38,6 +39,8 @@ function App() {
         {/* <Problem8/> */}
         {/* callback , memoized function */}
         {/* <Problem9/> */}
+        <Problem10/>
+        {/* custom hook */}
       </Suspense>
     </React.Fragment>
   );
